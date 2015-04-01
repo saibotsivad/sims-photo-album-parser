@@ -1,0 +1,30 @@
+{
+  "name": "sims-photo-album-parser",
+  "version": "0.0.1",
+  "description": "Parse the XML from a Sims 2 Photo Album into a JSON object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiaslabs/sims-photo-album-parser.git"
+  },
+  "keywords": [
+    "sims",
+    "sims2"
+  ],
+  "author": "saibotsivad",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/tobiaslabs/sims-photo-album-parser/issues"
+  },
+  "homepage": "https://github.com/tobiaslabs/sims-photo-album-parser",
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "dependencies": {
+    "moment": "^2.9.0",
+    "xml2js": "^0.4.6"
+  }
+}
