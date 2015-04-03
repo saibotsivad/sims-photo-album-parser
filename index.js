@@ -7,9 +7,13 @@ var dateFormatOutput = 'YYYY-MM-DD HH:mm:ss'
 module.exports = function(xmlString, cb) {
 	parseXml(xmlString, function(err, xml) {
 		if (err) {
-			cb({ parseXml: err })
+			err.parseXml = true
+			cb(err)
 		} else if (!xml.StoryCreator || !xml.StoryCreator.ExchangeMetadata || !xml.StoryCreator.ExchangeMetadata[0].Album) {
-			cb({ unknownXmlFormat: xml })
+			var err = new Error('unknown xml format')
+			err.unknownXmlFormat = true
+			err.xml = xml
+			cb(err)
 		} else {
 			var album = xml.StoryCreator.ExchangeMetadata[0].Album[0]
 			var json = {
