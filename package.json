@@ -1,6 +1,6 @@
 {
   "name": "sims-photo-album-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse the XML from a Sims 2 Photo Album into a JSON object.",
   "main": "index.js",
   "scripts": {
