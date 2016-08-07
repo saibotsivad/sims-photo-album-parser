@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tobiaslabs/sims-photo-album-parser.git"
+    "url": "https://github.com/saibotsivad/sims-photo-album-parser.git"
   },
   "keywords": [
     "sims",
@@ -17,9 +17,9 @@
   "author": "saibotsivad",
   "license": "VOL",
   "bugs": {
-    "url": "https://github.com/tobiaslabs/sims-photo-album-parser/issues"
+    "url": "https://github.com/saibotsivad/sims-photo-album-parser/issues"
   },
-  "homepage": "https://github.com/tobiaslabs/sims-photo-album-parser",
+  "homepage": "https://github.com/saibotsivad/sims-photo-album-parser",
   "devDependencies": {
     "tape": "^3.5.0"
   },

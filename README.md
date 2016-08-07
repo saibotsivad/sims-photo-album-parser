@@ -6,18 +6,22 @@ Parse the XML from a Sims 2 Photo Album into a JSON object.
 
 The normal way:
 
-	npm install sims-photo-album-parser
+```sh
+npm install sims-photo-album-parser
+```
 
 ## use
 
 Just call it with a path to the XML file:
 
-	var parse = require('sims-photo-album-parser')
-	var path_to_photo_album_xml_file = '/Users/saibotsivad/Games/Sims2/Neighborhood/N005/Storytelling/webentry_fe180f20.xml'
+```js
+var parse = require('sims-photo-album-parser')
+var path_to_photo_album_xml_file = '/Users/saibotsivad/Games/Sims2/Neighborhood/N005/Storytelling/webentry_fe180f20.xml'
 
-	parse(path_to_photo_album_xml_file, function(err, photoAlbum) {
-		console.log('Family Name:', photoAlbum.familyName)
-	})
+parse(path_to_photo_album_xml_file, function(err, photoAlbum) {
+	console.log('Family Name:', photoAlbum.familyName)
+})
+```
 
 ## bugs and requests
 
@@ -27,4 +31,4 @@ If possible, please include the XML content that is causing issues.
 
 ## license
 
-All code and documentation released under the [Very Open License](http://veryopenlicense.com).
+[VOL](http://veryopenlicense.com)
