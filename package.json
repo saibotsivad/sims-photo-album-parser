@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/saibotsivad/sims-photo-album-parser",
   "devDependencies": {
-    "tape": "^3.5.0"
+    "tape": "^4.7.0"
   },
   "dependencies": {
     "moment": "^2.9.0",
