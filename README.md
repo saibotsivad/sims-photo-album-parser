@@ -1,5 +1,7 @@
 # sims-photo-album-parser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/sims-photo-album-parser.svg)](https://greenkeeper.io/)
+
 Parse the XML from a Sims 2 Photo Album into a JSON object.
 
 ## install
